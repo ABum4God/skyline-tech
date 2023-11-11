@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+table, th, td{
+border: 1px solid lightgrey;
+border-collapse: collapse;
+
+}
+table{
+    margin: 60px auto;
+    width: 60%;
+}
+th, td{
+    padding: 10px;
+    font-size: 20px;
+}
+caption{
+padding: 10px;
+font-size: 25px;
+background: orange;
+width: 60%;
+margin: 20px auto;
+border-radius: 10px;
+color: aliceblue;
+}
+
+th{
+    background: dodgerblue;
+    color: white;
+}
