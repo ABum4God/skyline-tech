@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+table{
+    width: 60%;
+    margin:10px auto ;
+
+}
+
+th{
+    background-color: blue;
+    color: aliceblue;
+    font-size: 20px;
+    padding: 10px;
+}
+td{
+padding: 7px 20px 3px 7px;
+/* padding-left: 20px;
+padding-bottom: 10px; */
+}
+caption{
+font-size: 25px;
+font-weight: 600;
+text-align: left;
+font-family: Arial, Helvetica, sans-serif;
+text-transform: capitalize;
+margin-top: 30px;
+margin-bottom: 10px;
+
+}
+tr:nth-child(even){
+    background-color: lightgrey;
+    
+}
+.green{
+    background-color: green;
+    color: aliceblue;
+    padding: 3px;
+    border: none;
+}
+.yellow{
+    background-color: orange;
+    color: black;
+    padding: 4px  8px;
+    border: none;
+
+}
